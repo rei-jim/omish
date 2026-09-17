@@ -1,0 +1,7 @@
+TEST SET, scored once: 18 samples (11 Responders, 7 Non_responders). Models fitted on 71 training samples.
+
+ANOVA top-5 + ridge: test ROC-AUC 0.51 (bootstrap 95% 0.23-0.78), PR-AUC 0.70 (chance 0.61); at the training threshold for 90% recall: sensitivity 0.82 (9/11), specificity 0.00 (0/7)
+
+ridge, all 25 features: test ROC-AUC 0.52 (bootstrap 95% 0.24-0.79), PR-AUC 0.73 (chance 0.61); at the training threshold for 90% recall: sensitivity 0.82 (9/11), specificity 0.00 (0/7)
+
+ME9 eigengene alone: test ROC-AUC 0.43 (bootstrap 95% 0.16-0.72), PR-AUC 0.61 (chance 0.61); at the training threshold for 90% recall: sensitivity 0.82 (9/11), specificity 0.00 (0/7)

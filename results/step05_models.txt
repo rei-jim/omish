@@ -1,0 +1,24 @@
+TRAIN SET ONLY: 71 samples. 10 repeats x 5-fold outer CV, hyperparameters by inner 5-fold CV.
+
+                   ROC-AUC  PR-AUC  Spec@90%Rec  Prec@90%Rec  AUC 2.5%  AUC 97.5%
+model                                                                            
+L2 ridge             0.605   0.698        0.154        0.627     0.546      0.667
+L1 lasso             0.534   0.637        0.132        0.622     0.450      0.583
+elastic net          0.560   0.661        0.161        0.632     0.452      0.616
+ANOVA filter + L2    0.608   0.704        0.186        0.635     0.541      0.660
+XGBoost              0.586   0.675        0.121        0.623     0.516      0.625
+
+Fraction of the 50 outer-fold models in which each feature was kept (sparse models only), top 10 by lasso:
+      L1 lasso  elastic net  ANOVA filter + L2
+ME6       0.78         0.84               0.66
+ME9       0.66         0.88               0.90
+ME8       0.66         0.60               0.48
+ME15      0.64         0.58               0.60
+COPD      0.52         0.30               0.06
+ME13      0.46         0.36               0.20
+ME17      0.36         0.22               0.06
+ME10      0.36         0.44               0.66
+ME2       0.34         0.22               0.22
+ME18      0.32         0.28               0.32
+
+mean number of features kept: L1 lasso=8.0, elastic net=7.1, ANOVA filter + L2=5.5

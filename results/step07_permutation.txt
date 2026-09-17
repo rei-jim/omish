@@ -1,0 +1,5 @@
+TRAIN SET ONLY: 71 samples. 500 label permutations; each scored by 5x5-fold CV (selection inside folds).
+
+ridge, all 25 features: real AUC 0.529; null mean 0.496, 95th percentile 0.634, max 0.796; permutation p = 0.369
+
+ANOVA top-5 + ridge: real AUC 0.622; null mean 0.496, 95th percentile 0.639, max 0.815; permutation p = 0.082

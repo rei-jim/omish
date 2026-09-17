@@ -1,0 +1,14 @@
+TRAIN SET ONLY: 71 samples. Moderated t-test prior df d0=9.4 (larger = more shrinkage toward a common variance).
+genes with FDR<0.05 across all 13515 genes: 0; FDR<0.25: 7
+
+ME9: 270 genes. Eigengene Responders - Non_responders = +0.67 SD units, AUC 0.68, Mann-Whitney p=0.010
+  genes with p<0.05 (unadjusted): 133 of 270 (expected by chance ~14); FDR<0.25 within module: 210
+  direction: 98% of genes higher in Responders
+  top hub genes (kME): TMEM214 (kME 0.91, logFC +0.19, p 0.006), PRKCSH (kME 0.90, logFC +0.21, p 0.008), SLC4A2 (kME 0.89, logFC +0.14, p 0.038), DCAF15 (kME 0.88, logFC +0.08, p 0.211), DCTN1.2 (kME 0.87, logFC +0.20, p 0.019), FLNA (kME 0.87, logFC +0.19, p 0.012), PNPLA6 (kME 0.87, logFC +0.15, p 0.060), HECTD3 (kME 0.87, logFC +0.26, p 0.002)
+  most differential genes (|t|): DHCR24 (logFC +0.32, p 0.0000), SFXN3 (logFC +0.25, p 0.0001), SLC9A3R1 (logFC +0.28, p 0.0002), MICU1 (logFC +0.35, p 0.0002), MAP4K1 (logFC +0.25, p 0.0002), NADSYN1 (logFC +0.21, p 0.0006), SEPT9 (logFC +0.22, p 0.0008), GPI (logFC +0.31, p 0.0008)
+
+ME6: 38 genes. Eigengene Responders - Non_responders = +0.60 SD units, AUC 0.65, Mann-Whitney p=0.038
+  genes with p<0.05 (unadjusted): 14 of 38 (expected by chance ~2); FDR<0.25 within module: 33
+  direction: 97% of genes higher in Responders
+  top hub genes (kME): SARDH (kME 0.88, logFC +0.16, p 0.050), ST8SIA5 (kME 0.85, logFC +0.13, p 0.102), POSTN (kME 0.85, logFC +0.07, p 0.371), DENND2A (kME 0.83, logFC +0.19, p 0.007), CACNG2 (kME 0.80, logFC +0.25, p 0.035), CELSR3-AS1 (kME 0.79, logFC +0.24, p 0.002), GPR173 (kME 0.77, logFC +0.14, p 0.103), EDN3 (kME 0.77, logFC +0.11, p 0.091)
+  most differential genes (|t|): CDH9 (logFC +0.26, p 0.0007), KREMEN2 (logFC +0.27, p 0.0015), CELSR3-AS1 (logFC +0.24, p 0.0017), CYB5R1 (logFC +0.25, p 0.0035), DENND2A (logFC +0.19, p 0.0074), FRMD1 (logFC +0.22, p 0.0150), MAP2K7 (logFC +0.16, p 0.0232), GPT (logFC +0.19, p 0.0300)

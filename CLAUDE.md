@@ -11,3 +11,4 @@ Rules:
 - After each step, add its section to OMISH.ipynb (markdown: what/why/consequences/decision, then `%run stepNN_*.py`). Scripts hold the code; the notebook never duplicates it.
 - Every script sets fixed random seeds.
 - Feature selection runs on WGCNA module representatives (eigengenes), not on raw genes. Selection itself uses scikit-learn.
+- Supervised steps load samples via split.ids('train'). Never read the test set before the write-up step.

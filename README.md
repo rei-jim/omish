@@ -29,6 +29,11 @@ The defining constraint is **p >> n**: 13,519 features for 89 samples. Any proce
 that looks at the label (feature ranking, selection, tuning) must run inside
 cross-validation folds or the results are optimistic and non-reproducible.
 
+## Train / test split
+`split.py` sets aside 18 of the 89 samples (20%, stratified on response and batch, fixed seed) as a test set in
+`results/split.csv`. Every supervised step (4 onward) uses only the 71 training samples, with cross-validation inside
+them. The test set is scored once, in the write-up step. ComBat and WGCNA are unsupervised and stay fitted on all 89.
+
 ## How we work
 One step at a time. For each step we produce:
 1. **What we do** — the procedure, in plain terms.
@@ -42,19 +47,17 @@ outputs to `results/`. Decisions taken at each checkpoint are logged in `DECISIO
 ## Step plan (lesson → this project)
 | step | lesson | what we settle here |
 |---|---|---|
-| 1 | 01 Experiment design | Positive class, cost of each error type, primary metric, baseline, honest evaluation scheme for n=89 |
+| 1 | 01 Experiment design | Positive class, cost of each error type, primary metric, baseline, honest evaluation scheme for n=89. Revised 2026-09-17: recall first (a missed Responder or module costs more than a false alarm); classifiers reported at 90% recall; stability budget 2 expected false selections |
 | 2 | 02 EDA | Class balance, expression distributions per sample (normalisation check), clinical covariates vs label, PCA, batch/confounder hunt, leakage hunt. Sanity check: sex-chromosome genes (XIST, RPS4Y1) must agree with the Sex column |
 | 3 | **ComBat + WGCNA gene modules** | ComBat batch correction (`combat.py`, parametric empirical Bayes, no covariates), then Weighted Correlation Network Analysis on the genes (unsupervised, label never used): soft-threshold power, topological overlap, hierarchical clustering, dynamic tree cut. Each module is summarised by its representative (module eigengene, the module's first principal component). Genes go from 13,515 to a few tens of module representatives |
-| 4 | 09 Pipelines | Everything supervised inside a `Pipeline` over module representatives + clinical covariates; repeated stratified CV with hyperparameters tuned in an inner loop (nested CV) |
-| 5 | 01/03/05 Baseline + metrics | Chance model and clinical-only model; ROC-AUC / PR-AUC / F1 with bootstrap confidence intervals |
-| 6 | 04/06 Models + feature selection (scikit-learn) | Univariate filter + logistic, L1/L2 logistic, XGBoost on the module representatives; compared on identical folds |
-| 7 | **Stability selection** (Meinshausen & Bühlmann 2010) | Subsample 50% of samples a few hundred times, fit the L1 model on module representatives, record selection frequency per module. Keep modules above a threshold chosen to bound expected false positives |
-| 8 | **Permutation test** | Rerun the whole pipeline on shuffled labels ~200 times. The real AUC must sit outside the null distribution |
-| 9 | **Inside the selected modules** | For each selected module: member genes, hub genes (highest module membership), per-gene fold change and moderated t-test between classes, so biologists can read the module without the model |
-| 10 | 07 SHAP | Direction and size of each module's contribution to the prediction |
-| 11 | **Biological plausibility** | Gene-set enrichment per selected module; comparison with genes reported in the MEvA-X paper |
-| 12 | 08 Write-up | Findings, limits (n=89, no external cohort, batch), what is needed to validate |
-| 13 | 10 Structure | Refactor surviving scripts into a small package if the group wants to reuse it |
+| 4 | 09 + 01/03/05 Pipelines, nested CV, baselines | Hold-out split; then on the training set: `Pipeline` over eigengenes + clinical, repeated stratified CV with C tuned in an inner loop; chance and clinical-only baselines; ROC-AUC / PR-AUC with spread across repeats and bootstrap CI |
+| 5 | 04/06 Models + feature selection (scikit-learn) | Univariate filter + logistic, L1/L2 logistic, XGBoost on the module representatives; compared on identical folds |
+| 6 | **Stability selection** (Meinshausen & Bühlmann 2010) | Subsample 50% of samples a few hundred times, fit the L1 model on module representatives, record selection frequency per module. Keep modules above a threshold chosen to bound expected false positives |
+| 7 | **Permutation test** | Rerun the whole pipeline on shuffled labels ~200 times. The real AUC must sit outside the null distribution |
+| 8 | **Inside the selected modules** | For each selected module: member genes, hub genes (highest module membership), per-gene fold change and moderated t-test between classes, so biologists can read the module without the model |
+| 9 | Interpretation | Bootstrap ridge coefficients (SHAP dropped: linear model, coefficients are the explanation); gene-set enrichment per lead module vs the WGCNA background; comparison with genes reported in the MEvA-X paper |
+| 10 | 08 Write-up | Single scoring of the 18-sample test set; conclusions in REPORT.md |
+| 11 | 10 Structure | Refactor surviving scripts into a small package if the group wants to reuse it |
 Steps may be merged, repeated, or dropped at any checkpoint.
 
 ### Why WGCNA before feature selection

@@ -1,0 +1,35 @@
+TRAIN SET ONLY: 71 samples.
+
+Ridge (C=0.1) coefficients per SD of feature, log-odds of Responder; 95% bootstrap interval; P(coef>0):
+      coef    lo    hi  P(coef>0)
+ME6   0.27 -0.01  0.49       0.97
+COPD -0.20 -0.48  0.09       0.11
+ME9   0.19 -0.02  0.36       0.96
+ME8   0.19 -0.06  0.42       0.94
+ME15 -0.17 -0.38  0.09       0.10
+ME17  0.17 -0.09  0.36       0.90
+ME3  -0.14 -0.29  0.06       0.06
+ME13 -0.14 -0.37  0.12       0.16
+ME12  0.13 -0.15  0.41       0.83
+ME18 -0.12 -0.29  0.04       0.06
+features whose interval excludes 0: none
+
+ME9 (268 genes) enrichment vs 5000-gene background; terms with adjusted p<0.1: 2
+     Gene_set                                                  Term                       Genes  Adjusted P-value
+Reactome_2022              Other Interleukin Signaling R-HSA-449836 IL32;CSF1R;CD4;STXBP2;VAMP2          0.046922
+Reactome_2022 Generation Of Second Messenger Molecules R-HSA-202433   ZAP70;CD4;PKN1;CD3E;CD101          0.067678
+
+ME6 (38 genes) enrichment vs 5000-gene background; terms with adjusted p<0.1: 5
+                  Gene_set                                                                                          Term         Genes  Adjusted P-value
+GO_Biological_Process_2023                                          Cell-Cell Adhesion Mediated By Cadherin (GO:0044331)    CDH12;CDH9          0.012568
+GO_Biological_Process_2023 Calcium-Dependent Cell-Cell Adhesion Via Plasma Membrane Cell Adhesion Molecules (GO:0016339)    CDH12;CDH9          0.018770
+             Reactome_2022                                                  Adherens Junctions Interactions R-HSA-418990    CDH12;CDH9          0.044736
+GO_Biological_Process_2023                                                            Bicarbonate Transport (GO:0015701) CYB5R1;SLC4A3          0.061744
+GO_Biological_Process_2023                                                   Adherens Junction Organization (GO:0034332)    CDH12;CDH9          0.064547
+
+MEvA-X paper genes (named in the paper) located in our module map:
+  AP2B1: AP2B1 -> module ME8
+  RAC3: RAC3 -> module not in top-5000 variance
+  TMEM33: TMEM33 -> module unassigned
+  LINC00588: LINC00588 -> module not in top-5000 variance
+  BIK: BIK -> module unassigned

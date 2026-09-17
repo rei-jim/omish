@@ -1,0 +1,35 @@
+TRAIN SET ONLY: 71 samples, 25 features, 500 stratified half-subsamples per engine.
+EXPLORATORY, sensitivity-first: lists below tolerate more false positives to avoid missing a real biomarker (cancer-screening logic).
+
+L1 (C=0.3): mean #selected per subsample q=4.1
+  E[false selections]<=2: pi>=0.67  ->  none
+ANOVA top-5: mean #selected per subsample q=5.0
+  E[false selections]<=2: pi>=0.75  ->  ME9 (0.77)
+
+selection frequency, all features:
+          L1 (C=0.3)  ANOVA top-5
+ME6             0.59         0.58
+ME9             0.46         0.77
+ME10            0.39         0.53
+ME15            0.35         0.40
+ME8             0.34         0.46
+ME13            0.22         0.15
+ME11            0.20         0.60
+COPD            0.19         0.06
+ME18            0.19         0.23
+ME12            0.17         0.17
+ME2             0.16         0.16
+Diabetes        0.15         0.07
+ME17            0.09         0.07
+ME4             0.09         0.10
+Age             0.09         0.06
+ME20            0.08         0.11
+ME21            0.08         0.05
+Sex             0.07         0.03
+ME14            0.06         0.04
+ME7             0.06         0.15
+ME3             0.04         0.04
+ME19            0.03         0.07
+ME16            0.03         0.03
+ME1             0.02         0.05
+ME5             0.01         0.03

@@ -1,11 +1,13 @@
-20 repeats x 5-fold stratified CV, C tuned by inner 5-fold CV (nested). Prevalence 0.607.
+TRAIN SET ONLY: 71 samples. 
+20 repeats x 5-fold stratified CV, C tuned by inner 5-fold CV (nested). Prevalence 0.606.
 AUC 2.5%/97.5% = spread across repeats (how much the score depends on the fold split).
+Spec@90%Rec / Prec@90%Rec = specificity and precision at the loosest threshold that still catches 90% of Responders (recall-first operating point).
 
-                       ROC-AUC  PR-AUC     F1  AUC 2.5%  AUC 97.5%
-model                                                             
-chance                   0.493   0.603  0.755     0.493      0.493
-clinical only            0.510   0.621  0.711     0.450      0.580
-eigengenes only          0.625   0.702  0.750     0.514      0.670
-eigengenes + clinical    0.627   0.705  0.749     0.518      0.676
+                       ROC-AUC  PR-AUC  Spec@90%Rec  Prec@90%Rec  AUC 2.5%  AUC 97.5%
+model                                                                                
+chance                   0.464   0.588        0.000        0.606     0.464      0.464
+clinical only            0.432   0.567        0.062        0.608     0.355      0.482
+eigengenes only          0.607   0.696        0.157        0.629     0.543      0.682
+eigengenes + clinical    0.587   0.684        0.146        0.625     0.491      0.654
 
-bootstrap 95% CI of ROC-AUC, eigengenes + clinical, averaged OOF predictions: 0.419 - 0.656
+bootstrap 95% CI of ROC-AUC, eigengenes + clinical, averaged OOF predictions: 0.407 - 0.691
