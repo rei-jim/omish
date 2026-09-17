@@ -1,0 +1,47 @@
+per-sample median expression: min 3.31  max 4.17  (spread 0.85)
+Sex==0: n=46  XIST mean=4.66  RPS4Y1 mean=4.09
+Sex==1: n=43  XIST mean=1.71  RPS4Y1 mean=7.56
+fraction agreeing with Sex column if 1=male: 0.89  (if 1=female: 0.11)
+samples whose sex genes disagree with Sex column: ['GSM1123370', 'GSM1616283', 'GSM1616289', 'GSM1616295', 'GSM1616319', 'GSM1616325', 'GSM1616331', 'GSM1616343', 'GSM1616349', 'GSM1616377']
+variance explained by PC1..PC5: 28.5%, 8.0%, 5.0%, 3.7%, 3.0%
+
+PC vs variable (AUC for binary, |Spearman r| for Age); values near 0.5 / 0 mean no relation:
+       Response       Sex      COPD  Diabetes       Age
+PC1        0.56      0.54      0.58      0.58      0.02
+PC2        0.59      0.50      0.60      0.60      0.12
+PC3        0.61      0.50      0.53      0.57      0.03
+PC4        0.53      0.55      0.60      0.51      0.14
+PC5        0.57      0.57      0.51      0.61      0.00
+
+GEO series prefix as batch: GSM1123=63  GSM1616=26
+batch x response:
+Responder   0   1
+GSM1616          
+0          25  38
+1          10  16
+PC1..PC5 vs batch AUC: 0.50, 0.52, 0.54, 0.53, 0.55
+PC spread (SD) by batch:
+           PC1   PC2
+GSM1123   24.4  39.1
+GSM1616  110.5   7.3
+intermediate sex-gene cluster by batch:
+GSM1616        0   1
+intermediate        
+False         63   0
+True           0  26
+sex-gene agreement with Sex column, batch GSM1123: 0.98
+sex-gene agreement with Sex column, batch GSM1616: 0.65
+
+samples > 2.5 SD from centre in PC1-5: ['GSM1616280', 'GSM1616316', 'GSM1616364', 'GSM1616377']
+
+PC1..PC10 AUC vs response / batch:
+  PC1   var 28.5%  response 0.56  batch 0.50
+  PC2   var  8.0%  response 0.59  batch 0.52
+  PC3   var  5.0%  response 0.61  batch 0.54
+  PC4   var  3.7%  response 0.53  batch 0.53
+  PC5   var  3.0%  response 0.57  batch 0.55
+  PC6   var  2.8%  response 0.55  batch 0.55
+  PC7   var  2.4%  response 0.53  batch 0.59
+  PC8   var  2.0%  response 0.55  batch 0.53
+  PC9   var  1.8%  response 0.53  batch 0.54
+  PC10  var  1.7%  response 0.58  batch 0.51

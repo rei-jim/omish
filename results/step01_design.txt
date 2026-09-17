@@ -1,0 +1,13 @@
+samples: 89   Responders: 54   Non_responders: 35
+majority-class accuracy (chance baseline): 0.607
+chance AUC: 0.500
+
+Expected 95% CI width of an AUC estimate (true AUC 0.75):
+  single 20% hold-out set (n=18): 0.47
+  all samples via CV (n=89):      0.21
+
+Clinical covariates vs label (potential confounders):
+  Age    mean R=+0.09 NR=-0.15  t-test p=0.260  AUC=0.561
+  Sex      rate R=0.44 NR=0.54  Fisher p=0.393  AUC=0.451
+  COPD     rate R=0.41 NR=0.49  Fisher p=0.516  AUC=0.461
+  Diabetes rate R=0.28 NR=0.26  Fisher p=1.000  AUC=0.510

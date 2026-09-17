@@ -1,0 +1,11 @@
+20 repeats x 5-fold stratified CV, C tuned by inner 5-fold CV (nested). Prevalence 0.607.
+AUC 2.5%/97.5% = spread across repeats (how much the score depends on the fold split).
+
+                       ROC-AUC  PR-AUC     F1  AUC 2.5%  AUC 97.5%
+model                                                             
+chance                   0.493   0.603  0.755     0.493      0.493
+clinical only            0.510   0.621  0.711     0.450      0.580
+eigengenes only          0.625   0.702  0.750     0.514      0.670
+eigengenes + clinical    0.627   0.705  0.749     0.518      0.676
+
+bootstrap 95% CI of ROC-AUC, eigengenes + clinical, averaged OOF predictions: 0.419 - 0.656

@@ -1,0 +1,90 @@
+,WeightLoss,Sex,Age,COPD,Diabetes,title,group,pid,time
+GSM1123226,Non_responders,0,-0.6487049,1,0,Matched Ornish Participant [cv000288 baseline],Matched Ornish Participant,cv000288,baseline
+GSM1123229,Responders,1,-0.9885347,0,0,Matched Ornish Participant [cv000290 baseline],Matched Ornish Participant,cv000290,baseline
+GSM1123232,Responders,0,-0.4120999,0,0,Matched Ornish Participant [cv000291baseline],Matched Ornish Participant,cv000291,baseline
+GSM1123235,Responders,1,-0.7148152,1,1,Matched Ornish Participant [cv000292 baseline],Matched Ornish Participant,cv000292,baseline
+GSM1123238,Responders,0,-0.0641514,0,0,Matched Ornish Participant [cv000295 baseline],Matched Ornish Participant,cv000295,baseline
+GSM1123241,Responders,0,0.4252962,0,0,Matched Ornish Participant [cv000296 baseline],Matched Ornish Participant,cv000296,baseline
+GSM1123244,Responders,1,2.0722526,1,1,Matched Ornish Participant [cv000297baseline],Matched Ornish Participant,cv000297,baseline
+GSM1123247,Responders,1,1.8681228,1,0,Matched Ornish Participant [cv000298 baseline],Matched Ornish Participant,cv000298,baseline
+GSM1123250,Responders,1,0.1469374,1,0,Matched Ornish Participant [cv000299 baseline],Matched Ornish Participant,cv000299,baseline
+GSM1123253,Responders,1,-1.0198501,0,0,Matched Ornish Participant [cv000301baseline],Matched Ornish Participant,cv000301,baseline
+GSM1123256,Non_responders,0,-0.7484502,0,0,Matched Ornish Participant [cv000303 baseline],Matched Ornish Participant,cv000303,baseline
+GSM1123259,Responders,0,-0.4689315,0,0,Matched Ornish Participant [cv000304 baseline],Matched Ornish Participant,cv000304,baseline
+GSM1123262,Responders,0,0.4728492,0,0,Matched Ornish Participant [cv000306 baseline],Matched Ornish Participant,cv000306,baseline
+GSM1123265,Responders,0,-0.4782102,0,1,Matched Ornish Participant [cv000307 baseline],Matched Ornish Participant,cv000307,baseline
+GSM1123268,Non_responders,1,-0.918945,1,0,Matched Ornish Participant [cv000308 baseline],Matched Ornish Participant,cv000308,baseline
+GSM1123271,Non_responders,1,-0.4782102,0,0,Matched Ornish Participant [cv000309 baseline],Matched Ornish Participant,cv000309,baseline
+GSM1123274,Responders,0,-0.9154655,1,1,Matched Ornish Participant [cv000310 baseline],Matched Ornish Participant,cv000310,baseline
+GSM1123277,Responders,1,-0.4944478,0,0,Matched Ornish Participant [cv000341basleline],Matched Ornish Participant,cv000341,baseline
+GSM1123280,Responders,0,-0.8122408,0,0,Matched Ornish Participant [cv000342 baseline],Matched Ornish Participant,cv000342,baseline
+GSM1123283,Non_responders,1,0.5192423,1,0,Matched Ornish Participant [cv000352 baseline],Matched Ornish Participant,cv000352,baseline
+GSM1123286,Responders,1,-0.5257631,1,0,Matched Ornish Participant [cv000371baseline],Matched Ornish Participant,cv000371,baseline
+GSM1123289,Non_responders,0,0.1689741,0,1,Matched Ornish Participant [cv000428 baseline],Matched Ornish Participant,cv000428,baseline
+GSM1123292,Responders,1,-0.6301477,0,0,Matched Ornish Participant [cv000430 baseline],Matched Ornish Participant,cv000430,baseline
+GSM1123295,Responders,0,0.5586765,1,1,Matched Ornish Participant [cv000432 baseline],Matched Ornish Participant,cv000432,baseline
+GSM1123298,Non_responders,0,1.728943,0,0,Matched Ornish Participant [cv000434 baseline],Matched Ornish Participant,cv000434,baseline
+GSM1123301,Responders,0,1.043485,1,0,Matched Ornish Participant [cv000437 baseline],Matched Ornish Participant,cv000437,baseline
+GSM1123304,Responders,0,0.1283801,0,0,Matched Ornish Participant [cv000529 baseline],Matched Ornish Participant,cv000529,baseline
+GSM1123307,Non_responders,0,0.0785075,0,0,Matched Ornish Participant [cv000532 baseline],Matched Ornish Participant,cv000532,baseline
+GSM1123310,Responders,1,0.8834285,1,0,Matched Ornish Participant [cv000534 baseline],Matched Ornish Participant,cv000534,baseline
+GSM1123313,Non_responders,1,0.8903874,1,1,Matched Ornish Participant [cv000537 baseline],Matched Ornish Participant,cv000537,baseline
+GSM1123316,Non_responders,0,1.071321,1,0,Matched Ornish Participant [cv000580 baseline],Matched Ornish Participant,cv000580,baseline
+GSM1123319,Responders,1,0.1422981,0,0,Matched Ornish Participant [cv000581 baseline],Matched Ornish Participant,cv000581,baseline
+GSM1123322,Responders,1,1.5050965,1,0,Matched Ornish Participant [cv000583 baseline],Matched Ornish Participant,cv000583,baseline
+GSM1123325,Responders,0,0.2176869,0,0,Matched Ornish Participant [cv000588 baseline],Matched Ornish Participant,cv000588,baseline
+GSM1123328,Responders,0,-0.7182947,0,1,Matched Ornish Participant [cv000589 baseline],Matched Ornish Participant,cv000589,baseline
+GSM1123331,Responders,0,-0.668422,0,0,Matched Ornish Participant [cv000613 baseline],Matched Ornish Participant,cv000613,baseline
+GSM1123334,Responders,0,-0.02471723,0,0,Matched Ornish Participant [cv000621 baseline],Matched Ornish Participant,cv000621,baseline
+GSM1123337,Responders,0,1.471461,0,0,Matched Ornish Participant [cv000663 baseline],Matched Ornish Participant,cv000663,baseline
+GSM1123340,Non_responders,1,1.0574027,0,0,Matched Ornish Participant [cv000665 baseline],Matched Ornish Participant,cv000665,baseline
+GSM1123343,Non_responders,1,-0.7124955,1,0,Matched Ornish Participant [cv000668 baseline],Matched Ornish Participant,cv000668,baseline
+GSM1123346,Responders,1,1.1861437,0,0,Matched Ornish Participant [cv000669 baseline],Matched Ornish Participant,cv000669,baseline
+GSM1123349,Responders,0,0.392821,0,0,Matched Ornish Participant [cv000670 baseline],Matched Ornish Participant,cv000670,baseline
+GSM1123352,Responders,1,-0.1801342,0,0,Matched Ornish Participant [cv000687 baseline],Matched Ornish Participant,cv000687,baseline
+GSM1123355,Responders,0,-0.3251128,0,0,Matched Ornish Participant [cv000697 baseline],Matched Ornish Participant,cv000697,baseline
+GSM1123358,Responders,1,1.8762416,1,0,Matched Ornish Participant [cv000703 baseline],Matched Ornish Participant,cv000703,baseline
+GSM1123361,Non_responders,0,-0.1662163,0,0,Matched Ornish Participant [cv000750 baseline],Matched Ornish Participant,cv000750,baseline
+GSM1123364,Responders,0,-0.1894129,0,1,Matched Ornish Participant [cv000751 baseline],Matched Ornish Participant,cv000751,baseline
+GSM1123367,Non_responders,0,-0.1418599,1,0,Matched Ornish Participant [cv000775 baseline],Matched Ornish Participant,cv000775,baseline
+GSM1123370,Responders,0,1.2452949,1,0,Matched Ornish Participant [cv000777 baseline],Matched Ornish Participant,cv000777,baseline
+GSM1123373,Non_responders,1,-1.08828,1,0,Matched Ornish Participant [cv000780 baseline],Matched Ornish Participant,cv000780,baseline
+GSM1123376,Non_responders,0,-1.633399,0,0,Matched Ornish Participant [cv000781 baseline],Matched Ornish Participant,cv000781,baseline
+GSM1123379,Responders,0,-0.4735709,0,0,Matched Ornish Participant [cv000810 baseline],Matched Ornish Participant,cv000810,baseline
+GSM1123382,Non_responders,0,-0.7693271,0,0,Matched Ornish Participant [cv000823 baseline],Matched Ornish Participant,cv000823,baseline
+GSM1123385,Non_responders,1,-0.2265274,1,0,Matched Ornish Participant [cv000825 baseline],Matched Ornish Participant,cv000825,baseline
+GSM1123388,Non_responders,0,-0.7797656,0,0,Matched Ornish Participant [cv000827 baseline],Matched Ornish Participant,cv000827,baseline
+GSM1123391,Non_responders,1,0.3835424,0,0,Matched Ornish Participant [cv000879 baseline],Matched Ornish Participant,cv000879,baseline
+GSM1123394,Responders,0,-1.564969,0,0,Matched Ornish Participant [cv000882 baseline],Matched Ornish Participant,cv000882,baseline
+GSM1123397,Responders,0,0.1480972,0,1,Matched Ornish Participant [cv000884 baseline],Matched Ornish Participant,cv000884,baseline
+GSM1123400,Non_responders,0,-0.05139329,0,0,Matched Ornish Participant [cv000886 baseline],Matched Ornish Participant,cv000886,baseline
+GSM1123403,Non_responders,1,0.5053244,1,0,Matched Ornish Participant [cv000900 baseline],Matched Ornish Participant,cv000900,baseline
+GSM1123406,Non_responders,0,-1.2900901,0,0,Matched Ornish Participant [cv000918 baseline],Matched Ornish Participant,cv000918,baseline
+GSM1123409,Non_responders,0,-1.852607,0,0,Matched Ornish Participant [cv000928 baseline],Matched Ornish Participant,cv000928,baseline
+GSM1123412,Non_responders,1,0.4728492,1,0,Matched Ornish Participant [cv000931 baseline],Matched Ornish Participant,cv000931,baseline
+GSM1616280,Non_responders,1,-0.3622273,1,1,intervention_Ornish [cv000287 baseline],intervention_Ornish,cv000287,baseline
+GSM1616283,Responders,0,0.149257,1,0,intervention_Ornish [cv000293 baseline],intervention_Ornish,cv000293,baseline
+GSM1616286,Non_responders,1,2.2485466,0,0,intervention_Ornish [cv000343 baseline],intervention_Ornish,cv000343,baseline
+GSM1616289,Responders,0,0.03675368,1,0,intervention_Ornish [cv000344 Baseline],intervention_Ornish,cv000344,baseline
+GSM1616292,Responders,1,-0.04095483,1,1,intervention_Ornish [cv000350 baseline],intervention_Ornish,cv000350,baseline
+GSM1616295,Responders,0,0.6131884,0,0,intervention_Ornish [cv000355 baseline],intervention_Ornish,cv000355,baseline
+GSM1616298,Responders,1,-1.7876565,1,0,intervention_Ornish [cv000357 baseline],intervention_Ornish,cv000357,baseline
+GSM1616307,Responders,1,-2.2956614,0,1,intervention_Ornish [cv000414 baseline],intervention_Ornish,cv000414,baseline
+GSM1616310,Non_responders,1,0.7059747,1,1,intervention_Ornish [cv000427 baseline],intervention_Ornish,cv000427,baseline
+GSM1616313,Responders,1,-0.5999922,0,1,intervention_Ornish [cv000429 baseline],intervention_Ornish,cv000429,baseline
+GSM1616316,Responders,1,1.632678,1,0,intervention_Ornish [cv000435 baseline],intervention_Ornish,cv000435,baseline
+GSM1616319,Responders,0,2.8481779,1,0,intervention_Ornish [cv000536 Baseline],intervention_Ornish,cv000536,baseline
+GSM1616322,Non_responders,1,0.1017041,1,1,intervention_Ornish [cv000538 Baseline],intervention_Ornish,cv000538,baseline
+GSM1616325,Non_responders,0,-1.939594,0,1,intervention_Ornish [cv000579 Baseline],intervention_Ornish,cv000579,baseline
+GSM1616328,Responders,1,2.2404278,1,1,intervention_Ornish [cv000666 baseline],intervention_Ornish,cv000666,baseline
+GSM1616331,Responders,0,-0.1801342,1,0,intervention_Ornish [cv000667 baseline],intervention_Ornish,cv000667,baseline
+GSM1616343,Responders,0,-0.5628776,0,1,intervention_Ornish [cv000749 baseline],intervention_Ornish,cv000749,baseline
+GSM1616349,Responders,0,0.5204021,0,0,intervention_Ornish [cv000773 baseline],intervention_Ornish,cv000773,baseline
+GSM1616352,Responders,1,-0.7681673,1,1,intervention_Ornish [cv000812 baseline],intervention_Ornish,cv000812,baseline
+GSM1616355,Responders,1,-0.5246033,0,0,intervention_Ornish [cv000815 baseline],intervention_Ornish,cv000815,baseline
+GSM1616358,Non_responders,1,-1.067403,0,1,intervention_Ornish [cv000880 baseline],intervention_Ornish,cv000880,baseline
+GSM1616361,Non_responders,1,-0.634787,1,0,intervention_Ornish [cv000883 baseline],intervention_Ornish,cv000883,baseline
+GSM1616364,Non_responders,1,0.1759331,1,1,intervention_Ornish [cv000885 baseline],intervention_Ornish,cv000885,baseline
+GSM1616370,Responders,1,-0.4178991,1,1,intervention_Ornish [cv000919 baseline],intervention_Ornish,cv000919,baseline
+GSM1616373,Non_responders,1,-0.4341367,0,1,intervention_Ornish [cv000933 baseline],intervention_Ornish,cv000933,baseline
+GSM1616377,Non_responders,0,0.4287757,1,0,intervention_Ornish [cv000300 Baseline],intervention_Ornish,cv000300,baseline

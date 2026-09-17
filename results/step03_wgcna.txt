@@ -1,0 +1,8 @@
+ComBat-corrected 13515 genes across 89 samples; median SD ratio later/earlier batch: raw 1.83 -> corrected 1.02
+WGCNA on top 5000 variance genes
+soft-threshold power beta=12 (WGCNA default for signed network, n>40); scale-free R^2=0.79, mean connectivity 35.2
+smallest beta with R^2>=0.8: 13
+modules: 21   unassigned genes (module 0): 2011
+module sizes: ME1=31, ME2=42, ME3=317, ME4=38, ME5=31, ME6=38, ME7=113, ME8=294, ME9=270, ME10=229, ME11=352, ME12=70, ME13=37, ME14=40, ME15=55, ME16=59, ME17=41, ME18=135, ME19=273, ME20=424, ME21=100
+hub gene per module (highest kME): ME1:TOM1, ME2:DCTN4, ME3:TECPR2, ME4:IGLC1.1, ME5:NPC1L1, ME6:SARDH, ME7:GP1BB, ME8:GMPR, ME9:TMEM214, ME10:FAM96B, ME11:CRX, ME12:NKG7, ME13:RPS11.1, ME14:HERC5, ME15:SKI, ME16:LEF1, ME17:CD19, ME18:STXBP3, ME19:C18orf32, ME20:RCN2, ME21:ALPK1
+max |cor(eigengene, batch)| after correction: 0.00
